@@ -1,0 +1,40 @@
+footer {
+    background-color: rgba(10,10,10,.5);
+    background-image: url(../img/footer-image.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: center;
+}
+.inside h4 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+footer.container {
+    min-height: auto;
+}
+
+footer.container .inside {
+    padding: var(--mob-padding);
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px; 
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    margin: 0 10px;
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;  
+}
